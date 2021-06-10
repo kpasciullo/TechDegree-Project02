@@ -1,0 +1,97 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: rgb(230, 228, 228);
+  }
+
+  /* Navigation Styles */
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+
+  .nav li{
+      text-transform: uppercase;
+      background-color: rgb(240, 233, 240);
+      padding: 10px;
+      margin: 5px;
+  }
+
+  a {
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+  }
+  
+  a:hover {
+      color: teal;
+  }
+
+  /* Profile image */
+
+  .profile-img {
+      width: 50%;
+      height: auto;
+      border: solid transparent 1px;
+      border-radius: 50%;
+  }
+
+  /* main styles */
+
+  p {
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 150px;
+    padding-bottom: 25px;
+    
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .portfolio-img {
+      width: 90%;
+      height: auto;
+  }
+
+  .contact-info {
+    display: inline;
+    padding: 10px;
+}
+
+  /* footer styles */
+
+  footer {
+      padding-top: 75px;
+      font-weight: bold;
+  }
+
+  .footer {
+      display: flex;
+  }
+
+  .top-link {
+      text-transform: uppercase;
+  }
+
