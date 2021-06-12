@@ -134,9 +134,19 @@ ul {
     flex: 50%;
 }
 
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer li:first-child {
+    margin-right: auto;
+}
+
 .bottom-nav {
     display: initial;
     text-transform: uppercase;
+    padding: 10px;
 }
 
 .top-link {
