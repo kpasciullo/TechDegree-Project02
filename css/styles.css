@@ -72,6 +72,7 @@
 
   .contact-info {
       padding: 10px;
+
   }
 
   .portfolio-img {
@@ -124,7 +125,7 @@ ul {
 }
 
 .intro {
-    padding-top: 50px;
+    text-align: left;
 }
 
 .flex-container {
@@ -155,6 +156,21 @@ ul {
 .top-link {
     display: none;
 }
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    .portfolio {
+        flex: 33%;
+    }
+
+    .profile-img {
+        max-width: 250px;
+    }
+    .intro {
+        text-align: left;
+    }
+
   }
 
 
