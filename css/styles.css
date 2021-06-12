@@ -97,4 +97,51 @@
   .top-link {
       text-transform: uppercase;
   }
+  
+  .bottom-nav {
+      display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+
+ul {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav li{
+    background-color:  rgb(230, 228, 228);
+}
+
+.profile-img {
+    clear: both;
+    width: 25%;
+    float: right;
+    margin: 0 50px;
+}
+
+.intro {
+    padding-top: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    flex: 50%;
+}
+
+.bottom-nav {
+    display: initial;
+    text-transform: uppercase;
+}
+
+.top-link {
+    display: none;
+}
+  }
+
 
