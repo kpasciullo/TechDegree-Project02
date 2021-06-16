@@ -1,29 +1,44 @@
 * { 
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
   }
     
   body {
-    margin: 0;
-    padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: rgb(230, 228, 228);
+    background: rgb(231, 230, 230);
   }
 
   /* Navigation Styles */
 
-  ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-between;
-    list-style-type: none;
-    padding-inline-start: 0px;
+  li {
+      text-decoration: none;
   }
 
-  .nav li{
+  ul {
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
+      list-style-type: none;
+      padding-inline-start: 0px;
+    }
+
+  .nav-links {
+      list-style: none;
+  }
+
+  h1 {
+      padding: 15px;
+  }
+
+  .nav-links li {
+      display: block;
+      padding: 0 20px;
       text-transform: uppercase;
       background-color: rgb(240, 233, 240);
       padding: 10px;
@@ -31,6 +46,7 @@
   }
 
   a {
+      display: block;
       text-decoration: none;
       font-weight: bold;
       color: black;
@@ -47,6 +63,7 @@
       height: auto;
       border: solid transparent 1px;
       border-radius: 50%;
+      margin: 15px;
   }
 
   /* main styles */
@@ -58,20 +75,28 @@
 
   h2 {
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bolder;
-    padding-top: 150px;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-top: 50px;
     padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
   }
 
   h3 {
     font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 25px;
   }
 
   .contact-info {
       padding: 10px;
 
+  }
+
+  .intro {
+      padding-bottom: 50px;
   }
 
   .portfolio-img {
@@ -81,6 +106,23 @@
 
   .contact-info {
     display: inline;
+}
+
+.portfolio p {
+    margin-bottom: 40px;
+}
+
+.main-section{
+    background-color: rgb(240, 233, 240);
+    padding-bottom: 50px;
+} 
+
+.contact a {
+    display: inline;
+}
+
+.contact p {
+    margin-bottom: 50px;
 }
 
   /* footer styles */
@@ -97,8 +139,16 @@
       padding: 10px;
   }
 
+  .footer li {
+      margin-top:15px;
+      margin-bottom: 15px;
+  }
+
   .top-link {
       text-transform: uppercase;
+  }
+  .top-link:hover {
+      cursor: pointer;
   }
   
   .bottom-nav {
@@ -112,8 +162,8 @@ ul {
     justify-content: center;
 }
 
-.nav li{
-    background-color:  rgb(230, 228, 228);
+.nav-links {
+    margin-bottom:30px;
 }
 
 .profile-img {
@@ -165,35 +215,29 @@ ul {
 
     .intro {
         text-align: left;
-        max-width: 900px;
+        max-width: 800px;
     }
 
     h2{
-        padding-top: 250px;
+        margin-top: 250px;
+    }
+    
+    .main-header {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 30px;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
     h1 {
-        display: inline-block;
-        padding-top: 20px;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left:20px;
     }
-
-    ul {
-        margin-top: -55px;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row;
-        /* justify-content: space-between;
-        list-style-type: none;
-        padding-inline-start: 0px; */
-      }
-    
-      /* .nav li{
-          text-transform: uppercase;
-          background-color: rgb(240, 233, 240);
-          padding: 10px;
-          margin: 5px;
-      } */
-
   }
 
 
