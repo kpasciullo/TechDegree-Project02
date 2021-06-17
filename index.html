@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Kayla - Web Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,13 +13,14 @@
 		<h1 class="name">Kayla Pasciullo</h1>
 <nav class="main-nav">
     <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#main-section">Portfolio</a></li>
+    <li><a href="#second-section">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 </header>
-<img class="profile-img" src="images/prof02.jpg">
+<img class="profile-img" src="images/prof02.jpg" alt="image of kayla">
 
 
 <p class="intro">
@@ -31,11 +32,11 @@
 </p>
 
 
-<div class="main-section">
+<div id="main-section">
     <h2>Portfolio</h2>
     <main class="flex-container">
 <section class="portfolio">
-    <img class="portfolio-img" src="images/portfolio-1.png">
+    <img class="portfolio-img" src="images/portfolio-1.png" alt="image of marketing page">
     <h3>Marketing Page</h3>
     <p>
         This project shows the front page of a marketing website meant for a
@@ -44,7 +45,7 @@
 </section>
 
 <section class="portfolio">
-    <img class="portfolio-img" src="images/portfolio-2.png">
+    <img class="portfolio-img" src="images/portfolio-2.png" alt="image of search page">
     <h3>Search Page</h3>
     <p>
         This project searches through a specific database to find information
@@ -53,7 +54,7 @@
 </section>
 
 <section class="portfolio">
-    <img class="portfolio-img" src="images/portfolio-3.png">
+    <img class="portfolio-img" src="images/portfolio-3.png" alt="image of travel app">
     <h3>Travel App</h3>
     <p>
         This project compares travel times based on different transportation
@@ -62,7 +63,7 @@
 </section>
 
 <section class="portfolio">
-    <img class="portfolio-img" src="images/portfolio-4.png">
+    <img class="portfolio-img" src="images/portfolio-4.png" alt="image of map app">
     <h3>Map of Favorite Spots</h3>
     <p>
         This project uses mapping apis to plot points for my favorite spots in
@@ -71,7 +72,7 @@
 </section>
 
 <section class="portfolio">
-    <img class="portfolio-img" src="images/portfolio-5.png">
+    <img class="portfolio-img" src="images/portfolio-5.png" alt="image of photo gallery">
     <h3>Photo Gallery</h3>
     <p>
         This project shows pictures from a recent trip to the viewer and allows 
@@ -80,16 +81,64 @@
 </section>
 
 <section class="portfolio">
-    <img class="portfolio-img" src="images/portfolio-6.png">
+    <img class="portfolio-img" src="images/portfolio-6.png" alt="image of calculator app">
     <h3>Calculator</h3>
     <p>
         Someone can enter in the numbers they want, and press the big 
         blue button and get the results.
     </p>
 </section>
-</main>
 </div>
-<div class="contact">
+<div id="second-section">
+<h2>Skills</h2>
+<div id="skills">
+    
+    <section class="skills">
+   
+    <h3>HTML and CSS</h3>
+        <p>HTML is the most used markup language, and CSS is responsible for a website's layout and design. I have been working with 
+            both of these web languages for many years and am very confident using them to create webpages. I used them 
+            both to create this very page.
+        </p>
+        </section>
+
+    <section class="skills">
+    <h3>Analytical Skills</h3>
+        <p>I have a natural analytical instinct. I am always considering the functionality of what I am creating as well as the needs of my client.
+            I make sure that every step of the way I am merging performace and requirements to create the best product possible. 
+        </p>
+    </section>
+    <section class="skills">
+    <h3>Responsive Design Skills</h3>
+    <p>I understand how responsive design works, I know that today mobile devices account for approximately half of all web traffic.
+        I create websites that respond to a changing screen size. This webpage was created with a mobile first design, then customized to
+        fit medium (tablet) screens and large (desktop) screens. If you are using a device that allows it you can change the size of your 
+        browser to see how this page will respond and change to a more functional layout depending on the size. 
+    </p>
+    </section>
+    <section class="skills">
+        <h3>Testing and Debugging Skills</h3>
+        <p>I take pride in writing well designed, efficient code, testing my work is an important part of this. I continually test webpages for
+            possible errors, and if any problems should arise I correct them immediately. Testing is making sure that my code is doing what it 
+            is supposed to do, and being able to consistently test and debug my webpages is essential. 
+        </p>
+        </section>
+    <section class="skills">
+    <h3>Interpersonal Skills</h3>
+    <p>I have a great work ethic and a positive energetic attitude. I enjoy listening to people and can get along and effectively communicate with 
+        others. I beleive that positive client relations are an important part of my job. </p>
+        </section>
+
+    <section class="skills">
+        <h3>SEO (Search Engine Optimization</h3>
+        <p>Website traffic is important! If a website has good SEO it will attract more visitors. I know proven best practices that
+            are vital to search engines and help bring specific, high-intent traffic to your website.
+        </p>
+    </section>
+</div>
+</div>
+</main>
+<div id="contact">
 <h2>Contact</h2>
 <p>
     If you're interested in chatting or want more information about 
@@ -97,7 +146,7 @@
 </p>
 
 
-    <div class ="contact-info">Phone </div> <a class="phone" href="tel:1 (111) 555-1234"> +1 (111) 555-1234</a><br><br>
+    <div class ="contact-info">Phone </div> <a class="phone" href="tel:1-111-555-1234"> +1 (111) 555-1234</a><br><br>
     <div class="contact-info">Email </div><a class="email" href="mailto:kayla.pasciullo@hotmail.com">kayla.pasciullo@hotmail.com</a>
 </div>
 
@@ -105,10 +154,11 @@
     <hr>
     <ul class="footer">
     <li class="footer-name">Kayla Pasciullo</li>
-    <li><a class="bottom-nav" href="#">Home</a></li>
-    <li><a class="bottom-nav" href="#">Portfolio</a></li>
-    <li><a class="bottom-nav" href="#">Contact</a></li>
-    <li><a class="top-link" hrf="#">Back to top</a></li>
+    <li><a class="bottom-nav" href="#top">Home</a></li>
+    <li><a class="bottom-nav" href="#main-section">Portfolio</a></li>
+    <li><a class="bottom-nav" href="#second-section">Skills</a></li>
+    <li><a class="bottom-nav" href="#contact">Contact</a></li>
+    <li><a class="top-link" href="#top">Back to top</a></li>
 
 </ul>
 </footer>
