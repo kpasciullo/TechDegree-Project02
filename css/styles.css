@@ -9,7 +9,7 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: rgb(245, 243, 244);
+    background: #E2D8D2;
   }
 
   /* Navigation Styles */
@@ -29,6 +29,12 @@
 
   .nav-links {
       list-style: none;
+  }
+
+  .name {
+      color: #00755F;
+      font-family: 'Dancing Script', cursive;
+      font-size: 3.5rem;
   }
 
   h1 {
@@ -52,7 +58,7 @@
   }
   
   a:hover {
-      color: teal;
+      color: #DC751E;
   }
 
   /* Profile image */
@@ -62,7 +68,7 @@
       height: auto;
       border: solid transparent 1px;
       border-radius: 50%;
-      margin: 15px;
+      margin: 20px;
   }
 
   /* main styles */
@@ -73,8 +79,10 @@
   }
 
   h2 {
+    color: #DC751E;
+    font-family: 'Benne', serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight:bolder;
     margin-top: 50px;
     padding-bottom: 25px;
@@ -96,6 +104,7 @@
 
   .intro {
       padding-bottom: 50px;
+      margin-left: 10px;
   }
 
   .portfolio-img {
@@ -135,7 +144,7 @@
     
 }
 #second-section {
-    background-color: rgb(255,250,250);
+    background-color: rgb(245, 243, 244);
     padding-bottom: 50px;
 }
 
@@ -244,6 +253,8 @@ ul {
 
     .profile-img {
         max-width: 300px;
+        border-radius: 10%;
+        margin-right: 75px;
     }
 
     h2{
@@ -253,7 +264,7 @@ ul {
     .main-header {
         display: flex;
         justify-content: flex-end;
-        margin-bottom: 30px;
+        margin-bottom: 75px;
     }
 
     .nav-links {
